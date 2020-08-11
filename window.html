@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var name = "KDB";
+      function add(numb1, numb2) {
+        result = numb1 + numb2;
+        //   console.log("result inside", result);
+        console.log("name inside", name);
+        return result;
+        function double(numb) {
+          return numb * 2;
+        }
+        var total = double(result);
+        return total;
+      }
+      // console.log("result Outside", result);
+      console.log("name outside", name);
+      var sum = add(13, 11);
+      // console.log(sum);
+      console.log(result);
+    </script>
+  </body>
+</html>
